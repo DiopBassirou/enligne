@@ -1,3 +1,74 @@
-body{
-    background: #ebcb40;
+body {
+    background: #a3e1ed;
+    padding: 0;
+    margin: 0;
+}
+
+/* cela permet de respensiver la banier */
+@media screen and (max-width:7000px) {
+    .banier {
+        width: 100%;
+        height: 200px
+    }
+}
+nav{
+    background:linear-gradient(#d6f910,#f107ce);
+}
+@media screen and (max-width:70000px) {   
+    li {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 70px;
+    }
+}
+/* cela permet de respensiver les images */
+@media screen and (max-width:7000px) {
+    div img {
+        width: 100%;
+        height: 100%;
+        border: solid 2px;
+    }
+}
+    /*si l'ecrant depasse 800px la couleur va changer*/
+@media screen and (min-width:700px) {
+    .photo {
+        background:linear-gradient(#d6f910,#f107ce);
+    }
+}
+/*on centre les images et les mettre sous forme d'un tableau*/
+.photo {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 30% 30% 30%;
+    text-align: center;
+    justify-content: center;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    background:linear-gradient(#d6f910,#f107ce);
+}
+@media screen and (max-widht:7000px) {
+    form{
+        width: 80%;
+        text-align: center;
+    }
+}
+.naissancesexe{
+    padding-top: 10px;
+}
+.flier{
+    padding-top:10px ;
+}
+.valider{
+    padding-top:10px ;
+}
+footer{
+    text-align: center;
+}
+.adress{
+    background: linear-gradient(#1703e8,#d6f910);
 }
