@@ -68,6 +68,7 @@ fieldset{
 }
 footer{
     text-align: center;
+    padding-top: 10px;
 }
 .adress{
     background: linear-gradient(#1703e8,#d6f910);
