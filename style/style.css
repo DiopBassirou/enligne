@@ -11,8 +11,12 @@ body {
         height: 200px
     }
 }
-nav{
-    background:linear-gradient(#d6f910,#f107ce);
+@media screen and (max-width:7000px) {
+    
+    nav{
+        background:linear-gradient(#d6f910,#f107ce);
+        width: 100%;
+    }
 }
 @media screen and (max-width:70000px) {   
     li {
@@ -47,18 +51,28 @@ nav{
 legend{
     text-align: center;
 }
-fieldset{
+    fieldset{
     text-align: center;
     background:linear-gradient(#d6f910,#f107ce);
 }
+
 @media screen and (max-widht:7000px) {
     form{
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
 }
+@media screen and (max-widht:7000px) {
 .naissancesexe{
     padding-top: 10px;
+    width: 1000px;
+}
+}
+@media screen and (max-widht:500px) and ( min-height:270px) {
+div .nomprenom{
+display:grid;
+grid-template-columns: auto;
+}
 }
 .flier{
     padding-top:10px ;
