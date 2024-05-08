@@ -61,6 +61,7 @@ legend{
 @media screen and (max-widht:7000px) {
     form{
         text-align: center;
+        display: block;
     }
 }
 @media screen and (max-widht:7000px) {
@@ -69,9 +70,10 @@ legend{
     padding-top: 10px;
 }
 }
-@media screen and (max-widht:7000px) and ( min-width:200px) {
+@media screen and (max-widht:460px) and ( min-width:400px) {
  .nomprenom{
 display: flex;
+margin: 0;
 }
 }
 .flier{
